@@ -1,0 +1,397 @@
+body {  
+    margin: 0;  
+    font-family: Arial, sans-serif;  
+}  
+
+.navbar {  
+    display: flex;  
+    align-items: center;  
+    justify-content: space-between;  
+    background-color: black;  
+    padding: 10px 20px;  
+    color: white;  
+}  
+
+.logo {  
+    font-size: 20px;  
+    font-weight: bold;  
+}  
+
+.nav-links {  
+    list-style-type: none;  
+    display: flex;  
+    gap: 20px;  
+    padding: 0;  
+    margin: 0;  
+}  
+
+.nav-links li {  
+    cursor: pointer;  
+}  
+
+.sale {  
+    color: red; /* Para resaltar "Sale" */  
+    font-weight: bold;  
+}  
+
+.icons {  
+    display: flex;  
+    gap: 30px;  
+}  
+
+.icon {  
+    cursor: pointer;  
+}
+body {  
+
+    margin: 0;  
+    padding: 0;  
+}  
+
+.navbar {  
+    background-color: black;  
+    color: rgb(0, 0, 0);  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+    padding: 10px 20px;  
+    position: fixed; /* Mantenerla fija */  
+    top: 0;          /* En la parte superior */  
+    width: 100%;     /* Ancho completo */  
+    z-index: 1000;   /* Para que se superponga sobre otros elementos */  
+}  
+
+.nav-links {  
+    list-style: none;  
+    display: flex;  
+    gap: 20px;  
+}  
+
+.sale {  
+    color: red; /* Estilo especial para las 'Sale' */  
+}
+body {  
+    margin: 0;  
+    font-family: Arial, sans-serif;  
+}  
+
+.header {  
+    display: flex;  
+    align-items: center;  
+    justify-content: space-between;  
+    background-color: black;  
+    padding: 10px 20px;  
+}  
+
+.logo {  
+    color: rgb(0, 0, 0);  
+    font-size: 24px;  
+    font-weight: bold;  
+}  
+
+.nav ul {  
+    list-style: none;  
+    display: flex;  
+    gap: 20px;  
+}  
+
+.nav a {  
+    color: rgb(6, 6, 6);  
+    text-decoration: none;  
+    font-size: 16px;  
+}  
+
+.sale a {  
+    color: rgb(218, 41, 41); /* Estilo especial para la categoría “Sale” */  
+}  
+
+.icons a {  
+    color: rgb(0, 0, 0);  
+    margin-left: 20px;  
+    text-decoration: none;  
+    font-size: 29px;  
+}
+body {  
+    margin: 0;  
+    padding: 0;  
+}  
+
+.navbar {  
+    background-color: black; /* Color de fondo */  
+    color: rgb(0, 0, 0);           /* Color del texto */  
+    display: flex;          /* Usamos Flexbox para alinear elementos */  
+    justify-content: space-between; /* Distribuir espacio entre elementos */  
+    align-items: center;    /* Centrar los elementos verticalmente */  
+    padding: 20px 20px;     /* Espaciado interno */  
+    position: fixed; /* Fijar la barra de navegación */  
+    top: 0;          /* Alinearla en la parte superior */  
+    width: 100%;     /* Ancho completo */  
+    z-index: 1000;   /* Asegurarse de que esté por encima de otros elementos */  
+}  
+
+.nav-links {  
+    list-style: none; /* Quitar los puntos de la lista */  
+    display: flex;    /* Usamos Flexbox para la lista */  
+    gap: 30px;       /* Espacio entre los elementos de la lista */  
+}  
+
+.sale {  
+    color: rgb(220, 34, 34); /* Colorear el texto "Sale" */  
+}  
+
+
+.navbar {  
+    width: 100%; /* Ajusta el ancho según necesites */  
+    height: 90px; /* Ajusta la altura */  
+    background-color: rgb(205, 199, 199); /* Color de fondo */  
+    padding: 0px; /* Espacio interno */  
+    margin: auto; /* Centrar el contenedor */  
+}  
+
+.navbar ul {  
+    list-style-type: none; /* Eliminar el estilo de lista */  
+    padding: 0; /* Sin padding */  
+    margin: 0; /* Sin margen */  
+    display: flex; /* Usar Flexbox para alinear los elementos */  
+}  
+
+.navbar li {  
+    margin: 0 10px; /* Espacio entre los elementos de la lista */  
+}
+
+#carrusel 
+body {  
+    font-family: Arial, sans-serif;  
+}  
+
+.carrusel {  
+    position: relative;  
+    max-width: 600px;  
+    margin: auto;  
+    overflow: hidden;  
+}  
+
+.carrusel__contenido {  
+    display: flex;  
+    transition: transform 0.1s ease;  
+}  
+
+.carrusel__contenido img {  
+    max-width: 100%;  
+    display: block;  
+}  
+
+.carrusel__boton {  
+    position: absolute;  
+    top: 50%;  
+    transform: translateY(-40%);  
+    background-color: rgb(255, 255, 255);  
+    border: none;  
+    cursor: pointer;  
+    font-size: 19px;  
+}  
+
+#prevBtn {  
+    left: 40px;  
+}  
+
+#nextBtn {  
+    right: 40px;  
+}
+
+body {  
+    background-color: #ffffff; /* Fondo claro */  
+    font-family: Arial, sans-serif;  
+}  
+
+.gallery {  
+    display: flex;  
+    justify-content: space-around;  
+    margin: 20px;  
+}  
+
+.card {  
+    position: relative;  
+    overflow: hidden;  
+    width: 30%;  
+    border-radius: 10px; /* Esquinas redondeadas */  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */  
+}  
+
+.card img {  
+    width: 100%;  
+    height: auto; /* Mantiene la proporción */  
+}  
+
+.content {  
+    position: absolute;  
+    bottom: 10px;  
+    left: 10px;  
+    color: rgb(0, 0, 0);  
+    text-align: left;  
+    background: rgba(83, 83, 83, 0); /* Fondo semi-transparente */  
+    padding: 10px;  
+    border-radius: 5px;  
+}  
+
+h3 {  
+    margin: 0;  
+    font-size: 20px; /* Tamaño de fuente para título */  
+}  
+
+.shop-button {  
+    padding: 3px 9px;  
+    background-color: black; /* Botón negro */  
+    color: white; /* Texto blanco */  
+    text-decoration: none;  
+    border-radius: 5px;  
+    transition: background-color 0.3s; /* Transición suave */  
+}  
+
+.shop-button:hover {  
+    background-color: darkgray; /* Cambio de color al pasar el ratón */  
+}
+
+body {  
+    margin: 0;  
+    font-family: Arial, sans-serif;  
+}  
+
+footer {  
+    background-color: black;  
+    color: white;  
+    padding: 20px;  
+}  
+
+.footer-content {  
+    display: flex;  
+    justify-content: space-between;  
+    flex-wrap: wrap;  
+}  
+
+.footer-content > div {  
+    flex: 1;  
+    margin: 10px;  
+}  
+
+h3 {  
+    border-bottom: 1px solid white;  
+    padding-bottom: 10px;  
+}  
+
+ul {  
+    list-style-type: none;  
+    padding: 0;  
+}  
+
+ul li {  
+    margin: 5px 0;  
+}  
+
+.newsletter input {  
+    padding: 10px;  
+    margin-right: 5px;  
+    border: none;  
+}  
+
+.newsletter button {  
+    padding: 10px;  
+    border: none;  
+    background-color: #f39c12; /* Color de botón (puedes cambiar) */  
+    color: white;  
+    cursor: pointer;  
+}  
+
+.footer-info {  
+    text-align: center;  
+    margin-top: 20px;  
+}  
+
+.social-media a {  
+    margin: 0 10px;  
+    color: white;  
+    text-decoration: none;  
+}  
+
+.payment-methods {  
+    margin-top: 10px;  
+}  
+
+.payment-methods img {  
+    width: 100px; /* Ajusta el tamaño según sea necesario */  
+}
+.precio-antiguo {  
+    text-decoration: line-through; /* Tacha el precio antiguo */  
+    color: gray; /* Color del precio antiguo */ }
+
+    body {  
+        margin: 0;  
+        font-family: Arial, sans-serif;  
+    }  
+    
+    footer {  
+        background-color: black;  
+        color: white;  
+        padding: 30px;  
+    }  
+    
+    .footer-content {  
+        display: flex;  
+        justify-content: space-between;  
+        flex-wrap: wrap;  
+    }  
+    
+    .footer-content > div {  
+        flex: 1;  
+        margin: 10px;  
+    }  
+    
+    h3 {  
+        border-bottom: 1px solid white;  
+        padding-bottom: 10px;  
+    }  
+    
+    ul {  
+        list-style-type: none;  
+        padding: 0;  
+    }  
+    
+    ul li {  
+        margin: 5px 0;  
+    }  
+    
+    .newsletter input {  
+        padding: 10px;  
+        margin-right: 5px;  
+        border: none;  
+    }  
+    
+    .newsletter button {  
+        padding: 10px;  
+        border: none;  
+        background-color: #ffb70e; /* Color de botón (puedes cambiar) */  
+        color: white;  
+        cursor: pointer;  
+    }  
+    
+    .footer-info {  
+        text-align: center;  
+        margin-top: 20px;  
+    }  
+    
+    .social-media a {  
+        margin: 0 10px;  
+        color: white;  
+        text-decoration: none;  
+    }  
+    
+    .payment-methods {  
+        margin-top: 10px;  
+    }  
+    
+    .payment-methods img {  
+        width: 200px; /* Ajusta el tamaño según sea necesario */  
+    }
+
+
+   
